@@ -7,14 +7,11 @@ int main()
 {
     cout << "Chuong trinh tim tap hop 10 boi cua mot so";
     int so;
-    int boi;
-    cout << "\nNhap so can tim: "; cin >> so;
-    cout << "Boi can tim: "; cin >> boi;
+    cout << "\nNhap so: "; cin >> so;
     double kqua;
-    kqua = so * boi;
-    cout << "10 Boi so " << boi << " cua " << so << " la: ";
+    kqua = so;
     for (int i = 1; i <= 10; i++) {
-        kqua = kqua * boi;
+        kqua = so * i;
         cout << "\n" << kqua;
     }
     return 0;
